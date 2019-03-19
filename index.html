@@ -1,0 +1,659 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+ 
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>VitaDermax</title>
+  <meta name="description" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="http://js.salesup-crm.com/channels/js/channels.js" defer></script> 
+ 
+  <link rel="stylesheet" href="css/main.min.css">
+  <script src="js/scripts.min.js"></script>
+
+                        <meta name="robots" content="noindex, nofollow">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="//cdn4.cachedrives.com/o/../c/js/html5shiv.js"></script>
+          <script src="//cdn4.cachedrives.com/o/../c/js/respond.js"></script>
+        <![endif]-->
+
+        
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        
+    <link rel="stylesheet" href="css/tooltipster.bundle.min.css">
+        <script src="js/tooltipster.bundle.min.js"></script>
+        <script src="js/cart.js"></script>
+        <script src="js/jquery.playSound.js"></script>
+        
+        
+                <script src="js/jquery.countdown.min.js"></script>
+    
+    <style media="screen">
+        .alert-danger { border: solid 1px red; }
+        
+        .block12-form__price-old.old { font-size: 28px; }
+        .block12-form__price-new span { font-size: 28px; }
+        
+        .block1-price__old.old { font-size: 40px; }
+        .block1-price__new span { font-size: 42px;  }
+        
+        @media (max-width: 768px) {
+            .block12-form__price-old.old { font-size: 22px; }
+            .block12-form__price-new span { font-size: 22px }
+            
+            .block1-price__old.old { font-size: 30px; }
+            .block1-price__new span { font-size: 24px; }
+
+        }
+    </style>
+    
+    
+
+ </head>
+<body>
+  <div class="overflow">
+    <div class="block1">
+      <div class="container">
+        <div class="block1__decor1"></div>
+        <div class="block1__decor2"></div>
+        <div class="block1__decor3"></div>
+        <div class="block1__decor4"></div>
+        <div class="block1__container">
+          <div class="block1__left">
+            <div class="block1-logo">
+              <div class="block1-logo__img">
+                <!-- <img src="img/logo.png" alt=""> -->
+                <h1>BeYoung</h1>
+              </div>
+              <div class="block1-logo__tx clear">Cosmetics</div>
+            </div>
+            <div class="block1-pack desktop">
+              <img src="img/pack.png" alt="">
+              <!-- <div class="sale-label">-<b class="price_land_discount"></b>%</div> -->
+            </div>
+           <!--  <div class="timer">
+              <div class="timer__header">Time left:</div>
+                <div class="timer__container">
+                <div class="timer__item timer__item_hours">
+                  <div class="timer__item-tx">03</div>
+                  <div class="timer__item-label">hours</div>
+                </div>
+                <div class="timer__item timer__item_minutes">
+                  <div class="timer__item-tx">00</div>
+                  <div class="timer__item-label">minutes</div>
+                </div>
+                <div class="timer__item timer__item_seconds">
+                  <div class="timer__item-tx">00</div>
+                  <div class="timer__item-label">seconds</div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="block1__right">
+            <h2 class="header-2"><span class="clear">REDUCE YOUR SKIN </span> <span class="blue"> ONLY 28 DAYS!</span></h2>
+            <div class="block1-pack--mobile mobile">
+              <img src="img/pack-1.png" alt="">
+             <!--  <div class="sale-label">-<b class="price_land_discount"></b>%</div> -->
+            </div>
+            <div class="block1-list">
+              <div class="block1-list__item">
+                <div class="block1-list__img">
+                  <img src="img/b1_list.png" alt="">
+                </div>
+                <div class="block1-list__tx">Can be used with or without makeup</div>
+              </div>
+              <div class="block1-list__item">
+                <div class="block1-list__img">
+                  <img src="img/b1_list.png" alt="">
+                </div>
+                <div class="block1-list__tx">Visibly reduce the appearance of fine lines of wrinkles</div>
+              </div>
+              <div class="block1-list__item">
+                <div class="block1-list__img">
+                  <img src="img/b1_list.png" alt="">
+                </div>
+                <div class="block1-list__tx">Valid immediately after application</div>
+              </div>
+              <div class="block1-list__item">
+                <div class="block1-list__img">
+                  <img src="img/b1_list.png" alt="">
+                </div>
+                <div class="block1-list__tx">Restores skin texture</div>
+              </div>
+            </div>
+            <div class="block1-price">
+              <div class="block1-price__old old"><b class="price_land_s4">319</b><b class="price_land_curr">$</b></div>
+              <div class="block1-price__new"><span><b class="price_land_s1">159</b><b class="price_land_curr">$</b></span></div>
+            </div>
+            <div class="block1-button-container">
+              <button class="button button_orange __js-scroll-form">BUY</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block2">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-blue blue">WHY IS <span class="red">BeYoung</span>CREAM SO EFFECTIVE?<span class="header-2__dot"></span></h2>
+        <div class="block2-list">
+          <div class="block2-list_i">
+            <div class="block2-list__img">
+              <img src="img/b2_i1.png" alt="">
+            </div>
+            <div class="block2-list__container">
+              <h3 class="block2-list__header">Effect</h3>
+              <div class="block2-list__text">Prevents some aging of the skin, affects the processes of skin regeneration</div>
+            </div>
+          </div>
+          <div class="block2-list_i">
+            <div class="block2-list__img">
+              <img src="img/b2_i2.png" alt="">
+            </div>
+            <div class="block2-list__container">
+              <h3 class="block2-list__header">DEEP MOISTURE</h3>
+              <div class="block2-list__text">The cream is able to deeply moisturize all layers of the skin. Does not allow moisture to evaporate, is able to hold it on the surface and inside the skin for a long time</div>
+            </div>
+          </div>
+          <div class="block2-list_i">
+            <div class="block2-list__img">
+              <img src="img/b2_i3.png" alt="">
+            </div>
+            <div class="block2-list__container">
+              <h3 class="block2-list__header">MOMENTAL EFFECT OF REJUVENATION</h3>
+              <div class="block2-list__text">Quickly penetrates the skin and moisturizes it, has anti-aging properties</div>
+            </div>
+          </div>
+          <div class="block2-list_i">
+            <div class="block2-list__img">
+              <img src="img/b2_i4.png" alt="">
+            </div>
+            <div class="block2-list__container">
+              <h3 class="block2-list__header">SKIN PROTECTION 24 HOURS A DAY</h3>
+              <div class="block2-list__text">Brighten facial tone and protect from the damaging effects of adverse environmental factors</div>
+            </div>
+          </div>
+        </div>
+        <div class="block2-girl desktop">
+            <div class="block2-girl__line-emulation"></div>
+          <div class="block2-girl__old">
+            <img src="img/girl_after.png" alt="">
+          </div>
+          <div class="block2-girl__new">
+            <img src="img/girl_befor.png" alt="">
+          </div>
+        </div>
+        <div class="block2-girl--mobile mobile">
+            <div style='width: 50%; text-align: center; float: left; margin-top: 20px; color: #23627e'>
+                ÎNAINTE
+            </div>
+            <div style='width: 50%; text-align: center; float: left; margin-top: 20px; color: #23627e'>
+                DUPĂ
+            </div>
+            <div style="clear: both"></div>
+          <img src="img/girl2.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="block3">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-brown"><span class="blue">BeYoung</span> LOST ALL FACTORS <br>OF AGING!<span class="header-2__dot"></span></h2>
+        <div class="block3__container">
+          <div class="block3__left">
+            <div class="block3__text"><span class="bold">Cream "BeYoung"</span> It has a complex effect in three directions at once: it smoothes fine wrinkles in problem areas, fills skin cells with useful substances, strengthens the regenerative abilities of cells, prolonging skin youth and preventing the appearance of new wrinkles.</div>
+            <div class="block3__right--mobile mobile">
+              <img class="water" src="img/water.png" alt="">
+              <img class="pack" src="img/pack-1.png" alt="">
+            </div>
+            <div class="block3-list">
+              <div class="block3-list__item">
+                <div class="block3-list__img">
+                  <img src="img/b3_i1.png" alt="">
+                </div>
+                <div class="block3-list__tx">
+                  <span class="bold green">by increasing skin hydration</span></div>
+              </div>
+              <div class="block3-list__item">
+                <div class="block3-list__img">
+                  <img src="img/b3_i2.png" alt="">
+                </div>
+                <div class="block3-list__tx">
+                  <span class="bold green">improving elasticity and skin health</span></div>
+              </div>
+              <div class="block3-list__item">
+                <div class="block3-list__img">
+                  <img src="img/b3_i3.png" alt="">
+                </div>
+                <div class="block3-list__tx">
+                  <span class="bold green">protecting the skin from ultraviolet UV / UVB rays</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="block3__right desktop">
+            <div class="block3__water">
+              <img src="img/pack2.png" alt="">
+            </div>
+            <div class="block3__pack">
+              <img src="img/pack.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block4">
+      <div class="container">
+        <div class="block4__container">
+          <div class="block4-left">
+            <div class="block4-girl">
+              <div class="block4-girl__plus-item"></div>
+              <div class="block4-girl__plus-item"></div>
+              <div class="block4-girl__plus-item"></div>
+              <div class="block4-girl__plus-item"></div>
+              <div class="block4-girl__plus-item"></div>
+            </div>
+          </div>
+          <div class="block4-right">
+            <h2 class="header-2 header-2_left-bottom-line header-2_left-bottom-line-blue">BeYoung - THE BEST SOLUTION FOR HELP</h2>
+            <div class="block4-list">
+              <div class="block4-list__item">
+                <div class="block4-list__img">
+                  <img src="img/b4_i.png" alt="">
+                </div>
+                <div class="block4-list__tx">Nourishes, moisturizes, revives dry skin with a tough texture</div>
+              </div>
+              <div class="block4-list__item">
+                <div class="block4-list__img">
+                  <img src="img/b4_i.png" alt="">
+                </div>
+                <div class="block4-list__tx">Push the deep wrinkles inside, smooth the wrinkles</div>
+              </div>
+              <div class="block4-list__item">
+                <div class="block4-list__img">
+                  <img src="img/b4_i.png" alt="">
+                </div>
+                <div class="block4-list__tx">Promotes the production of natural collagen and elastin to increase the elasticity and firmness of the skin</div>
+              </div>
+              <div class="block4-list__item">
+                <div class="block4-list__img">
+                  <img src="img/b4_i.png" alt="">
+                </div>
+                <div class="block4-list__tx">It perfectly balances the texture of the skin and its tone, eliminating stains from pigments that appear with age</div>
+              </div>
+              <div class="block4-list__item">
+                <div class="block4-list__img">
+                  <img src="img/b4_i.png" alt="">
+                </div>  
+                <div class="block4-list__tx">Refreshes skin appearance and saturates the most important items to keep young skin</div>
+              </div>
+            </div>
+            <div class="block4-girl--mobile mobile">
+              <img src="img/girl.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block5">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-blue">REVOLUTIONARY SKIN RESTAURANT<div class="header-1 green"> ONLY 4 WEEKS</div><span class="header-2__dot"></span></h2>
+        <div class="block5__decor1"></div>
+        <div class="block5__decor2"></div>
+        <div class="block5-list">
+          <div class="block5-list__container">
+            <div class="block5-list__item">
+              <h4 class="block5-list__header">AFTER <br> 15 MINUTES </h4>
+              <div class="block5-list__tx">The skin is much softer and radiates. The face is hydrated, the epidermis is full of essential microelements for optimum balance.</div>
+            </div>
+          </div>
+          <div class="block5-list__container">
+            <div class="block5-list__item">
+              <h4 class="block5-list__header">AFTER <br> 14 DAYS </h4>
+              <div class="block5-list__tx">The action of collagen and elastin production is activated. The oval face is much tighter, deep wrinkles are reduced by 54%, wrinkles that appear with facial expressions are almost eliminated.</div>
+            </div>
+          </div>
+          <div class="block5-list__container">
+            <div class="block5-list__item">
+              <h4 class="block5-list__header">AFTER <br> 28 DAYS </h4>
+              <div class="block5-list__tx">Aging is completely stopped. The epidermis is hydrated and full of natural collagen and elastin. The contour of the face is clearer, the skin is elastic and loud, and the wrinkles almost disappear altogether. </div>
+            </div>
+          </div>
+        </div>
+        <button class="button button_orange __js-scroll-form">BUY</button>
+      </div>
+    </div>
+
+    <!-- <div class="block6">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-green"><div class="header-1">Elimină total  </div>schimbările create de îmbătrânire!<span class="header-2__dot"></span></h2>
+        <div class="block6-tx">VitalDermax are în compoziția sa esențe de ierburi, pe lângă niște uleiuri natural și esențile care lucrează să restaureze pielea și să reînnoiască membranele celulelor. </div>
+        <div class="block6-list">
+          <div class="block6-list__item">
+            <div class="block6-list__img">
+              <img src="img/b6_i1.png" alt="">
+            </div>
+            <h4 class="block6-list__header">COLAGEN PUR 99,5%</h4>
+            <div class="block6-list__tx">face ridurile adânci mai greu de observant, le împinge dinăuntru și este 100% absorbit de către piele!</div>
+          </div>
+          <div class="block6-list__item">
+            <div class="block6-list__img">
+              <img src="img/b6_i2.png" alt="">
+            </div>
+            <h4 class="block6-list__header">ACIDUL HIALURONIC</h4>
+            <div class="block6-list__tx">neutralizează efectul negativ al razelor soarelor, mediul prost pentru piele și obiceiurile proaste</div>
+          </div>
+          <div class="block6-list__item">
+            <div class="block6-list__img">
+              <img src="img/b6_i3.png" alt="">
+            </div>
+            <h4 class="block6-list__header">DNA DE SOMON </h4>
+            <div class="block6-list__tx">previne transformarea ridurilor fine în unele adânci</div>
+          </div>
+          <div class="block6-list__item">
+            <div class="block6-list__img">
+              <img src="img/b6_i4.png" alt="">
+            </div>
+            <h4 class="block6-list__header">Centella asiatica</h4>
+            <div class="block6-list__tx">forțează producția de colagen și elastină în piele</div>
+          </div>
+        </div>
+        <div class="block6-footer">
+          <div class="block6-footer__info">
+            <div class="block6-footer__percents">94%</div>
+            <div class="block6-footer__text">din europeni prefer VitalDermax</div>
+          </div>
+          <div class="block6-footer__img">
+            <img src="img/b6_image.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+<!--     <div class="block7">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-blue">Un studiu independent la care au participat 10.000 de femei a demonstrat <span class="green">eficacitatea CREMEI VITALDERMAX</span>. Rezultatele indică faptul că:<span class="header-2__dot"></span></h2>
+        <div class="block7_container">
+          <div class="block7-left">
+            <div class="block7-graph">
+              <div class="block7-list">
+                <div class="block7-list__item">
+                  <div class="block7-list__bar-container">
+                    <div class="block7-list__bar"></div>
+                    <div class="block7-list__percent">99%</div>
+                  </div>
+                  <div class="block7-list__tx">din femei au scăpat de riduri după ce au folosit acestă cremă</div>
+                </div>
+                <div class="block7-list__item">
+                  <div class="block7-list__bar-container">
+                    <div class="block7-list__bar"></div>
+                    <div class="block7-list__percent">77%</div>
+                  </div>
+                  <div class="block7-list__tx">dintre femei au observant schimbări semnificative după 8 zile de aplicare a cremei </div>
+                </div>
+                <div class="block7-list__item">
+                  <div class="block7-list__bar-container">
+                    <div class="block7-list__bar"></div>
+                    <div class="block7-list__percent">81%</div>
+                  </div>
+                  <div class="block7-list__tx">din femei au observant o îmbunătățire a clorii pielii și a pielii de pe față după 14 zile </div>
+                </div>
+                <div class="block7-list__item">
+                  <div class="block7-list__bar-container">
+                    <div class="block7-list__bar"></div>
+                    <div class="block7-list__percent">69%</div>
+                  </div>
+                  <div class="block7-list__tx">din femei au scăpat de ochi umflați și cearcănele de pe față și de petele urâte de pe gât</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block7-right">
+            <div class="block7-right__before-tx">ÎNAINTE</div>
+            <div class="block7-right__after-tx">DUPĂ </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+   <!--  <div class="block8">
+      <div class="container">
+        <h2 class="header-2 header-2_left-bottom-line header-2_left-bottom-line-brown">OPINIA SPECIALIȘTILOR <br> DESPRE <span class="blue">VitalDermax</span></h2>
+        <div class="doc-img--mobile mobile">
+          <img src="img/doc.png" alt="">
+        </div>
+        <div class="block8-tx">Procedurile moderne de întinerire au rezultate bune, dar în majoritatea cazurilor există multe efecte secundare – umflături, reacții alergice, este atins nervul, mușchii feței se atrofiază, și altele. Toate acestea apar din cauza folosirii greșite a injecțiilor. Din păcate, nu există nici o garanție că nu veți întâlni și dumneavoastră aceste problem. Așadar, este mai sigur să folosiți aceleași componente externe. În combinație cu componentele bio, ele reușesc să penetreze și să ajungă în straturile foarte adânci ale epidermei și afectează ridurile dinăuntru. În timp, pielea nu numai că se îmbunătățește, ci începe să producă de asemenea și colagen și elastină – proteine care vă fac pielea mai tânără. <span class="bold green">VitalDermax este crema mea preferată dintre toate</span>. E absolut natural, hipoalergenic și oferă un rezultat excelent după doar 3-4 săptămâni de folosire.</div>
+        <div class="block8-sign">
+            <div class="block8-sign__name">Mihaela Piele, <br> cosmetolog</div>
+            <div class="block8-sign__img">
+              <img src="img/b7_sign.png" alt="">
+            </div>
+            <div class="block8-sign__img2">
+              <img src="img/b7_sign2.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div> -->
+
+    <div class="block9">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-green">HOW BEYOUNG IS USED<span class="header-2__dot"></span></h2>
+        <div class="block9-list">
+          <div class="block9-list__item">
+            <div class="block9-list__img">
+              <img src="img/b9_i1.png" alt="">
+            </div>
+            <h4 class="block9-list__header">STEP 1</h4>
+            <div class="block9-list__tx">Clear skin</div>
+          </div>
+          <div class="block9-list__item">
+            <div class="block9-list__img">
+              <img src="img/b9_i2.png" alt="">
+            </div>
+            <h4 class="block9-list__header">STEP 2</h4>
+            <div class="block9-list__tx">Apply the cream in a small amount on the skin</div>
+          </div>
+          <div class="block9-list__item">
+            <div class="block9-list__img">
+              <img src="img/b9_i3.png" alt="">
+            </div>
+            <h4 class="block9-list__header">STEP 3</h4>
+            <div class="block9-list__tx">Spread on the massage lines</div>
+          </div>
+          <div class="block9-list__item">
+            <div class="block9-list__img">
+              <img src="img/b9_i4.png" alt="">
+            </div>
+            <h4 class="block9-list__header">STEP 4</h4>
+            <div class="block9-list__tx">Leave to dry completely</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="block10">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-blue">REZULTATE DUPĂ <span class="green">28 DE ZILE </span>DE FOLOSIRE A VITALDERMAX <span class="header-2__dot"></span></h2>
+        <div class="block10-tx">9 din 10 femei care aleg VitalDermax ca principala cremă de piele sunt 100% mulțumite de rezultat!</div>
+        <div class="block10-review">
+          <div class="block10-review__container">
+            <div class="block10-review__item">
+              <div class="block10-review__img"><img src="img/otz1.png" alt=""></div>
+              <div class="block10-review__tx">Am piele foarte subțire, asta e problema mea. Ridurile au început să apară când eram la facultate – în jurul pleoapelor și pe frunte. Am încercat tot felul de măști, loțiuni, masaje – nu eram mulțumită de rezultat deloc. Am urmat sfatul prietenului meu și am cumpărat <span class="bold">VitalDermax – efectul este pur și simplu uimitor!</span> Pielea mea a devenit foarte netedă, catifelată, ridurile au dispărut după 3 săptămâni. Continui să folosesc crema în fiecare zi – și nu am avut probleme cu pielea deloc. </div>
+              <div class="block10-review__name">Floarea Dumitru, 32 de ani </div>
+            </div>
+          </div>
+          <div class="block10-review__container">
+            <div class="block10-review__item">
+              <div class="block10-review__img"><img src="img/otz2.png" alt=""></div>
+              <div class="block10-review__tx">La vârsta mea, nici un produs nu poate să facă față ridurilor mele. Dar, ca orice femeie, vreau să arăt cât mai bine. Împreună cu fiica mea, am început să folosim VitalDermax. Două luni mai târziu, nici nu ne mai recunoaștem! <span class="bold">Pielea mea s-a întins, petele mi-au dispărut complet,</span> iar ridurile mele nici nu se mai văd.</div>
+              <div class="block10-review__name">Valentina Nicolescu, 59 de ani </div>
+            </div>
+          </div>
+          <div class="block10-review__container">
+            <div class="block10-review__item">
+              <div class="block10-review__img"><img src="img/otz3.png" alt=""></div>
+              <div class="block10-review__tx">De foarte mult timp am vrut să facă un facelift, dar am citit multe chestii urâte despre procedura asta – unele fete s-au trezit cu fața distrusă, una nici nu mai putea zâmbi după operație... de ziua mea, fata mea mi-a cumpărat VitalDermax. Nu am crezut că ar putea avea un astfel de efect! <span class="bold">După doar 2 luni, arătam cu 10 ani mai tânără.</span> Chiar și ridurile adânci mi-au dispărut. </div>
+              <div class="block10-review__name">Cristina Surdu, 48 de ani </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="block11">
+      <div class="container">
+        <h2 class="header-2 header-2_bottom-line header-2_bottom-line-blue">How to order BeYoung?<span class="header-2__dot"></span></h2>
+        <div class="block11-list">
+          <div class="block11-list__item">
+            <div class="block11-list__container">
+              <div class="block11-list__img">
+                <img src="img/b11_i1.png" alt="">
+              </div>
+              <div class="block11-list__tx">
+                <div class="block11-list__num">1</div>
+                <div class="block11-list__title">Fill out the order form on our website</div>
+              </div>
+            </div>
+          </div>
+          <div class="block11-list__item">
+            <div class="block11-list__container">
+              <div class="block11-list__img">
+                <img src="img/b11_i2.png" alt="">
+              </div>
+              <div class="block11-list__tx">
+                <div class="block11-list__num">2</div>
+                <div class="block11-list__title">Wait for the operator to confirm the order.</div>
+              </div>
+            </div>
+          </div>
+          <div class="block11-list__item">
+            <div class="block11-list__container">
+              <div class="block11-list__img">
+                <img src="img/b11_i3.png" alt="">
+              </div>
+              <div class="block11-list__tx">
+                <div class="block11-list__num">3</div>
+                <div class="block11-list__title">Wait for your order</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block12">
+      <div class="container">
+        <h2 class="header-2">REDUCE YOUR SKIN <br> AND THE BEGINNING OF THE BEGIN IN <span class="blue">ONLY 28 DAYS!</span></h2>
+        <div class="block12-tx">ORDER <b>BeYoung</b> now <br> AND RECEIVE A REDUCTION OF<b class="price_land_discount"></b>%! </div>
+        <div class="block12-container">
+          <div class="block12-left">
+            <div class="block12__pack">
+              <img src="img/pack.png" alt="">
+              <!-- <div class="sale-label">-<b class="price_land_discount"></b>%</div> -->
+            </div>
+          </div>
+          <div class="block12-center">
+            <form method="post" action="http://cc.salesup-crm.com/PostOrder.aspx" class="block12-form">
+              <fieldset>
+                <input type="text" placeholder="NAME" name="name" class="block12-form__input required order_data">
+                <input type="text" placeholder="PHONE" name="phone" class="block12-form__input required order_data">
+                <div class="block12-form__price">
+                  <div class="block12-form__price-old old"><b class="price_land_s4">319</b><b class="price_land_curr">$</b></div>
+                  <div class="block12-form__price-new"><span><b class="price_land_s1">159</b><b class="price_land_curr">$</b></span></div>
+                </div>
+                <button class="button button_orange" type="submit">BUY</button>
+              </fieldset>
+                                    <input name="comment" type="hidden" value="" />
+          <input class="product_id" name="product_id" type="hidden" value="6344" />  
+          <input name="result_url" type="hidden" value="http://top-shopper.biz/vitaldermaxro/index2.html"/> 
+          <input name="referrer" type="hidden" value="" />
+          <input name="order_url" type="hidden" value="" />
+          <input name="transaction_id" type="hidden" value="0" />
+          <input name="partner_id" type="hidden" value="0" /> 
+          <input name="link_id" type="hidden" value="0" />        
+</form>
+ </form>
+          </div>
+          <div class="block12-right">
+            <!-- div class="block12__logo">
+              <img src="img/b12_logo.png" alt="">
+            </div> -->
+            <!-- <div class="timer">
+              <div class="timer__header">Time left</div>
+                <div class="timer__container">
+                <div class="timer__item timer__item_hours">
+                  <div class="timer__item-tx">03</div>
+                  <div class="timer__item-label">hours</div>
+                </div>
+                <div class="timer__item timer__item_minutes">
+                  <div class="timer__item-tx">00</div>
+                  <div class="timer__item-label">minutes</div>
+                </div>
+                <div class="timer__item timer__item_seconds">
+                  <div class="timer__item-tx">00</div>
+                  <div class="timer__item-label">seconds</div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    #footer {
+        margin-bottom: 32px;
+    }
+    #footer div {
+        text-align: center;
+        padding: 5px 0px;
+        line-height: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+    #footer #legal_message {
+        width: 585px;
+        margin: 0px auto;
+    }
+    #footer #copyright a {
+        color: #ccc;
+        font-weight: normal;
+        text-decoration: none;
+    }
+</style>
+<div id="footer">
+    <div id="copyright">
+<footer style="padding: 20px 0">
+       <center><rekv>Ruscrea, S.L. Calle."<br>Ronda de la química 23, planta 2, despacho 2a 46980  <br></rekv><br>
+        <a href="polit-3.html" modal="polit">Privacy Policy</a><br><br></center>
+</footer>       
+    </div>
+</div> 
+
+
+  
+    
+
+</body> 
+</html>
